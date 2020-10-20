@@ -4,7 +4,7 @@ RUN apt-get update
 
 RUN apt-get install python3.8 -y
 
-WORKDIR /home
+WORKDIR /code
 
 COPY src .
 
